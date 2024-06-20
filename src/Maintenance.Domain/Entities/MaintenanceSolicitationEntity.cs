@@ -12,6 +12,37 @@ namespace Maintenance.Domain.Entities
         public virtual long SubsidiaryId { get; set; }
 
         /// <summary>
+        /// Razão/Justificativa.
+        /// </summary>
+        /// <value></value>
+        public virtual string? Reason { get; set; }
+
+        /// <summary>
+        /// Tipo de solicitação de manutenção.
+        /// </summary>
+        /// <value></value>
+        public virtual MaintenanceSolicitationTypeEnum MaintenanceSolicitationType { get; set; }
+
+        /// <summary>
+        /// Data de ínicio desejada para a manutenção.
+        /// </summary>
+        /// <value></value>
+        public virtual DateTime DesireBeginDateForMaintenance { get; set; }
+
+        /// <summary>
+        /// Data da solicitação.
+        /// </summary>
+        /// <value></value>
+        public virtual DateTime SolicitationDate { get; set; }
+
+        /// <summary>
+        /// Status da solicitação.
+        /// </summary>
+        /// <value></value>
+        public virtual SolicitationStateEnum SolicitationState { get; set; }
+
+        #region Relacionamentos.
+        /// <summary>
         /// Index do solicitante.
         /// </summary>
         /// <value></value>
@@ -24,9 +55,10 @@ namespace Maintenance.Domain.Entities
         public virtual long ApproverId { get; set; }
 
         /// <summary>
-        /// Tipo de solicitação de manutenção.
+        /// Index do contrato.
         /// </summary>
         /// <value></value>
-        public virtual MaintenanceSolicitationTypeEnum MaintenanceSolicitationType { get; set; }
+        public virtual long ContractId { get; set; }
+        #endregion Relacionamentos.
     }
 }
