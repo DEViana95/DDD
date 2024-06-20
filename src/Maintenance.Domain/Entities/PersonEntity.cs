@@ -2,9 +2,13 @@ using Maintenance.Domain.Entities.EntitiesBase;
 
 namespace Maintenance.Domain.Entities
 {
-    public class SubsidiaryEntity : EntityComplement
-    {
-        public virtual string? Name { get; private set; }
+    public class PersonEntity : EntityComplement
+    {   
+        /// <summary>
+        /// Nome da pessoa.
+        /// </summary>
+        /// <value></value>
+        public virtual string? Name { get; set; }
 
         /// <summary>
         /// Construtor de criação da entidade.
@@ -14,7 +18,7 @@ namespace Maintenance.Domain.Entities
         /// <param name="createdAt"></param>
         /// <param name="createdBy"></param>
         /// <param name="name"></param>
-        public SubsidiaryEntity(
+        public PersonEntity(
             long id,
             bool deleted,
             DateTime createdAt,
@@ -23,7 +27,7 @@ namespace Maintenance.Domain.Entities
         )
         {
             if (string.IsNullOrWhiteSpace(name))
-                throw new Exception("Nome da subsidiaria é inválida.");
+                throw new Exception("Nome da pessoa é inválido.");
 
             this.Id = id;
             this.Deleted = deleted;
