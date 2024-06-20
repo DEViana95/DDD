@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\Maintenance.Domain\\Maintenance.Domain.csproj": {}
+    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\Maintenance.Domain\\Maintenance.Domain.csproj": {
+    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\Maintenance.Domain\\Maintenance.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj",
         "projectName": "Maintenance.Domain",
-        "projectPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\Maintenance.Domain\\Maintenance.Domain.csproj",
+        "projectPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj",
         "packagesPath": "C:\\Users\\Gabriel Viana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\Maintenance.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Viana\\AppData\\Roaming\\NuGet\\NuGet.Config"
