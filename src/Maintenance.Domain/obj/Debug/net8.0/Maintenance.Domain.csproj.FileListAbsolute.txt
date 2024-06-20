@@ -1,0 +1,6 @@
+C:\Users\Gabriel Viana\Desktop\Projetos\DDD\Maintenance.Domain\obj\Debug\net8.0\Maintenance.Domain.csproj.AssemblyReference.cache
+C:\Users\Gabriel Viana\Desktop\Projetos\DDD\Maintenance.Domain\obj\Debug\net8.0\Maintenance.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Viana\Desktop\Projetos\DDD\Maintenance.Domain\obj\Debug\net8.0\Maintenance.Domain.AssemblyInfoInputs.cache
+C:\Users\Gabriel Viana\Desktop\Projetos\DDD\Maintenance.Domain\obj\Debug\net8.0\Maintenance.Domain.AssemblyInfo.cs
+C:\Users\Gabriel Viana\Desktop\Projetos\DDD\Maintenance.Domain\obj\Debug\net8.0\Maintenance.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Viana\Desktop\Projetos\DDD\Maintenance.Domain\obj\Debug\net8.0\Maintenance.Domain.sourcelink.json
