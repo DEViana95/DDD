@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj": {}
+    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Application\\Maintenance.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj": {
+    "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Application\\Maintenance.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj",
-        "projectName": "Maintenance.Domain",
-        "projectPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\Maintenance.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Application\\Maintenance.Application.csproj",
+        "projectName": "Maintenance.Application",
+        "projectPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Application\\Maintenance.Application.csproj",
         "packagesPath": "C:\\Users\\Gabriel Viana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Viana\\Desktop\\Projetos\\DDD\\src\\Maintenance.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Viana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,24 +42,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.9.2, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[11.9.2, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
