@@ -41,6 +41,12 @@ namespace Maintenance.Domain.Entities
         /// <value></value>
         public virtual SolicitationStateEnum SolicitationState { get; set; }
 
+        /// <summary>
+        /// Informações do contrato.
+        /// </summary>
+        /// <value></value>
+        public virtual string? ContractInformationsJson { get; set; }
+
         #region Relacionamentos.
         /// <summary>
         /// Index do solicitante.
